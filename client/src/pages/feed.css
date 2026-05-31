@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* LEFT */
+
+.sidebar {
+  width: 260px;
+  background: #111827;
+  padding: 20px;
+  color: white;
+}
+
+.profileCard {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profilePic {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.menuItem {
+  padding: 12px;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.menuItem:hover {
+  background: #1f2937;
+}
+
+/* CENTER */
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background: #141b2d;
+}
+
+.navbar {
+  background: #1f2937;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.search {
+  width: 45%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background: #374151;
+  color: white;
+}
+
+.createPost {
+  background: #1f2937;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.createPost input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+}
+
+.createPost button {
+  background: #00bfff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* POSTS */
+
+.post {
+  background: #1f2937;
+  color: white;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.postTop {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.postImage {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.likeBtn {
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* RIGHT */
+
+.rightbar {
+  width: 280px;
+  background: #111827;
+  padding: 20px;
+  color: white;
+}
+
+.card {
+  background: #1f2937;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.sponsored {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+}

@@ -1,0 +1,102 @@
+.app {
+  display: flex;
+  font-family: Arial;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar button {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #222;
+  color: white;
+  border-radius: 8px;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  background: #f4f4f4;
+}
+
+/* TOPBAR */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: white;
+}
+
+.search {
+  width: 60%;
+  padding: 8px;
+}
+
+.profileIcon img {
+  border-radius: 50%;
+}
+
+/* FEED */
+.feed {
+  padding: 20px;
+}
+
+.postBox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.postBox input {
+  flex: 1;
+  padding: 10px;
+}
+
+.postBox button {
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: none;
+}
+
+/* POST */
+.post {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.postUser {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.postUser img {
+  border-radius: 50%;
+}
+
+/* PROFILE */
+.profile {
+  padding: 20px;
+}
+
+.bigAvatar {
+  border-radius: 50%;
+}
+
+.page {
+  padding: 20px;
+}
